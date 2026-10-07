@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A self-paced learning path for IBM ODM and the Java that supports it.">
+  <meta name="theme-color" content="#5566e8">
+  <title>ODM &amp; Java Learning Path</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%235566e8'/><text y='68' x='50' text-anchor='middle' font-size='54' font-family='sans-serif' fill='white' font-weight='bold'>O</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============================ SIDEBAR ============================ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">OD</div>
+      <div>
+        <div class="brand-text">ODM &amp; Java</div>
+        <div class="brand-sub" id="topicCount">learning path</div>
+      </div>
+    </div>
+
+    <div class="side-search">
+      <input type="search" id="sideSearch" placeholder="Search topics and terms…" autocomplete="off">
+    </div>
+
+    <nav class="side-scroll" id="sideNav"></nav>
+
+    <div class="side-foot">
+      <button class="icon-btn" id="themeBtn" title="Toggle dark mode">☽</button>
+      <button class="icon-btn" data-go="#/settings" title="Settings">⚙</button>
+      <span class="streak-chip" id="streakChip">🔥 0</span>
+    </div>
+  </aside>
+
+  <!-- ============================= MAIN ============================== -->
+  <div class="main">
+    <div class="topbar">
+      <button class="icon-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <strong style="font-size:.92rem">ODM &amp; Java Learning Path</strong>
+      <button class="icon-btn" style="margin-left:auto" data-go="#/">⌂</button>
+    </div>
+
+    <main class="content" id="view"></main>
+  </div>
+
+</div>
+
+<div class="scrim" id="scrim"></div>
+<div class="toast" id="toast"></div>
+
+<!-- ============================ CONTENT ============================ -->
+<!-- Edit these files directly to add or change topics. No build step. -->
+<script src="content/phase1.js"></script>
+<script src="content/phase2.js"></script>
+<script src="content/phase3.js"></script>
+<script src="content/phase4.js"></script>
+<script src="content/phase5.js"></script>
+<script src="content/phase6.js"></script>
+<script src="content/phase7.js"></script>
+<script src="content/pocs.js"></script>
+<script src="content/flashcards.js"></script>
+
+<!-- ============================== APP ============================== -->
+<script src="js/storage.js"></script>
+<script src="js/render.js"></script>
+<script src="js/playground.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
